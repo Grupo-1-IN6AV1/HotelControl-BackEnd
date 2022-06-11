@@ -3,11 +3,6 @@
 //Importación del Archivo mongoConfig - Conexión a MongoDB
 const mongoConfig = require('./configs/mongoConfig');
 
-//Importación de Encriptado//
-const {encrypt, alreadyCompany} = require('./src/utils/validate');
-
-//Importación del Modelo de Usuario//
-const Company = require('./src/models/company.model');
 
 //Importación del Servidor de Express
 const app = require('./configs/app');

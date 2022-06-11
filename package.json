@@ -4,7 +4,8 @@
   "description": "BackEnd Hoteles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/Grupo-1-IN6AV1/HotelControl-BackEnd/issues"
   },
-  "homepage": "https://github.com/Grupo-1-IN6AV1/HotelControl-BackEnd#readme"
+  "homepage": "https://github.com/Grupo-1-IN6AV1/HotelControl-BackEnd#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.6"
+  }
 }
