@@ -1,0 +1,19 @@
+{
+  "name": "hoteles",
+  "version": "1.0.0",
+  "description": "BackEnd Hoteles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grupo-1-IN6AV1/HotelControl-BackEnd.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grupo-1-IN6AV1/HotelControl-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Grupo-1-IN6AV1/HotelControl-BackEnd#readme"
+}
